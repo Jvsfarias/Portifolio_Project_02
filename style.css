@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Imagens/WallpaperHZD2.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  background-color: #212529;
+  position: sticky;
+  top: 0;
+}
+
+.navegation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.text-nav {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.text-nav:hover,
+.text-nav:active {
+  color: #fab005;
+}
+
+.register_btn {
+  background-color: #fab005;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.register_btn:hover,
+.register_btn:active {
+  color: #fab005;
+  background-color: white;
+}
+
+.btn:hover,
+.btn:active {
+  color: #fab005;
+  background-color: white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 1);
+}
+
+.header-texts {
+  transform: translate(0, 50%);
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #444;
+}
+
+.header-texts-inner {
+  width: 55%;
+  color: white;
+}
+
+.header-texts h1,
+.header-texts p {
+  margin-bottom: 40px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #fab005;
+  padding: 15px 30px;
+  border-radius: 9px;
+  color: white;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 150px;
+  margin-top: 150px;
+}
+
+.weapon_img {
+  width: 300px;
+}
+
+.blockchain_img {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.blockchain,
+.funcionamento {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+}
+
+.blockchain h2,
+.funcionamento h2 {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 9px;
+  background-color: #fab005;
+  margin-bottom: 40px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 150px;
+  margin-top: 150px;
+}
+
+.section3 {
+  background-color: #ececec;
+  padding-bottom: 20px;
+}
+
+.sobre h2 {
+  margin-top: 120px;
+  font-size: 45px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 9px;
+}
+
+.sobre_grid {
+  width: 60%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sobre_grid p {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-style: italic;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.footer {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
