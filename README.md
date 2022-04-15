@@ -6,3 +6,5 @@ Objective: I was looking for something to do, and I decided to do the front-end 
 
 Result:
 
+![Pic 1](https://user-images.githubusercontent.com/101264734/163653346-47637e2e-bf4e-460a-b9cc-75681b5a9bab.PNG)
+
