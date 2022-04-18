@@ -6,4 +6,4 @@ Objective: I was looking for something to do, and I decided to do the front-end 
 
 Result:
 
-<a href="https://jvsfarias.github.io/Portifolio_Project_02/" target="_blank">
+<a href="https://jvsfarias.github.io/Portifolio_Project_02/" target="_blank"></a>
