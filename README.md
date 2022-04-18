@@ -6,9 +6,4 @@ Objective: I was looking for something to do, and I decided to do the front-end 
 
 Result:
 
-![Pic 1](https://user-images.githubusercontent.com/101264734/163653346-47637e2e-bf4e-460a-b9cc-75681b5a9bab.PNG)
-
-![Pic 2](https://user-images.githubusercontent.com/101264734/163653365-0bcf403c-61e3-4ee1-b817-ad5a480f5aea.PNG)
-
-![Pic 3](https://user-images.githubusercontent.com/101264734/163653376-ce2b5010-fdaf-4b1d-b12b-103521cb01cd.PNG)
-
+https://jvsfarias.github.io/Portifolio_Project_02/
