@@ -16,7 +16,8 @@ header {
 }
 
 .container {
-  width: 1200px;
+  min-width: 320px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -27,6 +28,7 @@ header {
 }
 
 .navegation {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,7 +43,7 @@ nav {
 
 .text-nav {
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
+  font-size: max(14px, 1vw);
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -71,20 +73,28 @@ nav {
 }
 
 .header-texts {
-  transform: translate(0, 50%);
   font-family: "Rubik", sans-serif;
-  font-size: 22px;
-  color: #444;
+  font-size: max(20px, 1.2vw);
+  color: white;
 }
 
 .header-texts-inner {
-  width: 55%;
-  color: white;
+  font-size: max(15px, 1.2vw);
+  margin: auto 3%;
+  width: 58%;
 }
 
 .header-texts h1,
 .header-texts p {
-  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.header-texts h1 {
+  padding-top: 200px;
+}
+
+.header-texts p {
+  padding-top: 20px;
 }
 
 .btn {
@@ -93,28 +103,31 @@ nav {
   padding: 15px 30px;
   border-radius: 9px;
   color: white;
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .section {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 150px;
+  gap: 10px;
   margin-top: 150px;
 }
 
 .weapon_img {
-  width: 300px;
+  width: 100%;
 }
 
 .blockchain_img {
-  width: 500px;
+  width: 100%;
   margin-top: 50px;
 }
 
 .blockchain,
 .funcionamento {
+  margin: auto 10px;
   font-family: "Rubik", sans-serif;
-  font-size: 25px;
+  font-size: max(15px, 1.1vw);
 }
 
 .blockchain h2,
@@ -130,7 +143,7 @@ nav {
 .section2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 150px;
+  gap: 50px;
   margin-top: 150px;
 }
 
@@ -140,24 +153,27 @@ nav {
 }
 
 .sobre h2 {
-  margin-top: 120px;
-  font-size: 45px;
+  margin-top: 20%;
+  font-size: max(30px, 2vw);
   text-align: center;
   font-family: "Rubik", sans-serif;
   color: black;
   padding: 10px 20px;
+  /* gap: %; */
   border-radius: 9px;
 }
 
 .sobre_grid {
-  width: 60%;
-  margin: 50px auto;
+  width: 70%;
+  margin: 3% auto;
   display: grid;
+  gap: 20px;
+  align-items: flex-start;
   grid-template-columns: 1fr 1fr;
 }
 
 .sobre_grid p {
-  font-size: 20px;
+  font-size: max(15px, 1vw);
   font-family: "Rubik", sans-serif;
   font-style: italic;
 }
@@ -171,5 +187,10 @@ footer {
   color: white;
   font-family: "Rubik", sans-serif;
   display: flex;
+  font-size: max(12px, 0.8vw);
   justify-content: space-between;
+}
+
+.foto {
+  width: 100%;
 }
